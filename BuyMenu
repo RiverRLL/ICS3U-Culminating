@@ -1,0 +1,31 @@
+import javax.swing.*;
+
+public class Buy {
+
+    public void buy(){
+
+    JFrame f=new JFrame("StockSim");  
+    JButton buy=new JButton("SEARCH");  
+    buy.setBounds(135,100,120,30);  
+    f.add(buy);  
+    f.setSize(400,400);  
+    f.setLayout(null);  
+    f.setVisible(true);   
+
+    JFrame f=new JFrame("StockSim");  
+    JButton buy=new JButton("EXPLORE");  
+    buy.setBounds(135,150,120,30);  
+    f.add(buy);  
+    f.setSize(400,400);  
+    f.setLayout(null);  
+    f.setVisible(true);   
+
+    JFrame f=new JFrame("StockSim");  
+    JButton buy=new JButton("BACK");  
+    buy.setBounds(135,200,120,30);  
+    f.add(buy);  
+    f.setSize(400,400);  
+    f.setLayout(null);  
+    f.setVisible(true);   
+}
+}
