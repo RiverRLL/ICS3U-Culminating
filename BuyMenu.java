@@ -7,7 +7,7 @@ public class BuyMenu implements ActionListener{
     public void buy(){
 
     JFrame f=new JFrame("StockSim");  
-    JButton stock1=new JButton("Stock 1");  
+    JButton stock1=new JButton("Stock 1 + Price");  
     //stock1.addActionListener(this);
     stock1.setBounds(135,80,120,30);  
     f.add(stock1);  
@@ -15,7 +15,7 @@ public class BuyMenu implements ActionListener{
     f.setLayout(null);  
     f.setVisible(true);   
 
-    JButton stock2=new JButton("Stock 2");  
+    JButton stock2=new JButton("Stock 2 + Price");  
     //stock2.addActionListener(this);
     stock2.setBounds(135,120,120,30);  
     f.add(stock2);  
@@ -23,7 +23,7 @@ public class BuyMenu implements ActionListener{
     f.setLayout(null);  
     f.setVisible(true);   
 
-    JButton stock3=new JButton("Stock 3");  
+    JButton stock3=new JButton("Stock 3 + Price");  
     //stock3.addActionListener(this);
     stock3.setBounds(135,160,120,30);  
     f.add(stock3);  
@@ -31,7 +31,7 @@ public class BuyMenu implements ActionListener{
     f.setLayout(null);  
     f.setVisible(true);
 
-    JButton stock4=new JButton("Stock 4");  
+    JButton stock4=new JButton("Stock 4 + Price");  
     //stock3.addActionListener(this);
     stock4.setBounds(135,200,120,30);  
     f.add(stock4);  
